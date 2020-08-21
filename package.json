@@ -1,0 +1,37 @@
+{
+	"name": "photoswatermark",
+	"version": "1.0.0",
+	"description": "Add location from exif tags to photos",
+	"main": "index.js",
+	"author": "Alex Uskov",
+	"license": "MIT",
+	"scripts": {
+		"start": "node build/index.js",
+		"dev": "tsnd  --nolazy --trace-warnings --inspect --respawn src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+		"format": "prettier --write \"**/*.*\""
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"exif-async": "^1.0.6",
+		"fs-extra": "^9.0.1",
+		"jimp": "^0.16.0",
+		"koa": "^2.13.0",
+		"koa-body": "^4.2.0",
+		"koa-static": "^5.0.0",
+		"node-geocoder": "^3.27.0"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.1",
+		"@types/node-geocoder": "^3.24.1",
+		"jest": "^26.4.1",
+		"prettier": "^2.0.5",
+		"ts-jest": "^26.2.0",
+		"ts-node-dev": "^1.0.0-pre.59",
+		"typescript": "^4.0.2"
+	},
+	"prettier": {
+		"useTabs": true
+	}
+}

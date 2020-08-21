@@ -1,0 +1,6 @@
+input/*
+output/*
+node_modules
+build/
+failed/
+.env

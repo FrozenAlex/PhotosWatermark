@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"outDir": "./build",
+		"sourceMap": true,
+		"target": "ES6",
+		"module": "CommonJS"
+	},
+	"exclude": ["./node_modules"]
+}

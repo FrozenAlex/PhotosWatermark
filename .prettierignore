@@ -1,0 +1,11 @@
+node_modules
+build
+yarn.lock
+*.png
+*.fnt
+failed/
+input/
+output/
+.env
+.gitignore
+.prettierignore
